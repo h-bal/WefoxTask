@@ -1,0 +1,98 @@
+
+**1. In terms of the different testing categories that describe the scope of the test, how would you describe the type of test you have just written?**
+
+I did API Testing which is a type of Backend Testing.
+API helps different applications and services to communicate and share information with each other.
+API testing is entirely different from GUI testing and mainly concentrates on the business logic layer of the software architecture. 
+This testing won't concentrate on the look and feel of an application.
+Instead of using standard user inputs(keyboard) and outputs, in API Testing, you use software to send calls to the API, get output, and note down the system's response.
+API Testing requires an application to interact with API.
+ 
+In order to test an API, you will need to use Testing Tool to drive the API (as POSTMAN), and write your own code to test the API (I used Java language and rest assured library).
+
+API Testing can be done in early software creation cycle even before GUI developed. Bugs can be found earlier and fixed. It is cheaper and slightly faster than UI testing.
+
+I used Swagger documentation to perform my API testing. I sent Post,Get,Put,Delete HTTP methods
+I check the response part to verify HTTP Status codes,Content Type and body for each method.
+Before do automation of API with Restassured library I also execute each method in Postman manually to see expected results.
+
+
+ **2.Outline the possibilities of automating these specific test cases in different scopes,**
+**together with a short summary of the pros and cons of each of them.**
+
+There are different practices involved with API testing like Unit, Performance, Load, Runtime Error, Security, WebUI, Penetration, Fuzz Tests.
+
+**Type of testing**	                              |                    **Stage of software**
+Unit testing and integration testing	          |                  Development stage
+Performance and load testing	                  |        As early as possible as these tests take time
+Runtime error and security testing	              |                  Ongoing processes
+UI and fuzz testing	                              |                    Testing stage 
+Validation testing	                              |                 User Acceptance testing
+
+
+**Unit Testing**
+
+   **Pros**    
+     -More reusable code and easier debugging.  
+     -Increased efficiency of code improvement and maintenance.   
+     -More reusable code and easier debugging.  
+   
+   **Cons**  
+     -A developer can make a mistake that will impact whole system.  
+     -Not all errors can be detected,since every module it tested separately and  later different integration bugs appear.
+   
+   
+    
+    
+    
+ **Integration Testing**  
+                                                            
+   **Pros**  
+     -It is very convenient to approach if the systems are small.   
+     -Fault detection is very easy with this, considering small systems   
+     
+   **Cons**    
+     -Since all modules are coupled, if some fault arises in the systems, it is difficult to spot it on.  
+     -Time taken for this approach is more.  
+     
+     
+  **Functional Testing**   
+       **Pros**     
+         -Performed from the perspective of the users allow us creating scenarios that represent the real world ones.
+         -It ensures the proper working as expected of all the functionalities of an application.
+         -The risks and loss reduced.     
+       **Cons**       
+         -It can miss critical as well as logical errors in the system.   
+         
+  **UI Testing**             
+       **Pros**             
+         -If these tests result in better user experience,you’ll have higher chances of the API being integrated—and higher profits to speak for it.      
+       **Cons**        
+         -UI testing isn't a sufficient replacement for functional testing,Good UI test results can’t substitute the more thorough insights of functional tests.   
+
+  **Validation Testing**       
+       **Pros**       
+         -Validation testing is where you can expect to get a bird’s eye view of the API product .This is especially helpful in the later stages of development, where everyone’s goals should be aligning.   
+       **Cons**        
+         -It can be difficult. Sometimes, when you find a problem  it requires you to go back the drawing board.
+        
+  **Performance Testing**     
+       **Pros**   
+         -This test is in place to check the performance of more diverse operations such as response time,reliability,speed and functionality of the program.
+         -Doesn’t focus on defects,but rather on eliminating performance blockage of the software.     
+       **Cons**       
+         -Some functional errors are only visible under load. There is a chance for not detecting such errors while doing this testing. 
+         -If testing is not performed on various devices,it might cause variation in results so user experience difficulties 
+        
+   **Load Testing**     
+       **Pros**    
+         -This function works to validate the performance under specific load requirements.                                                  
+         -This determines how the application will work together with numerous users concurrently.    
+       **Cons**      
+         -Does not simulate real users interacting with elements of your webpage. 
+         -It doesn't give you an idea of how user-friendly your application is
+        
+        
+
+
+ 

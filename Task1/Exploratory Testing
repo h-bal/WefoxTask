@@ -1,0 +1,19 @@
+**Exploratory Testing**
+
+The given webpage (https://www.phptravels.net/) didn't work as expected at all. Search hotels section was totaly out of work never gives me a result. 
+I was searching a hotel for booking(tried it 6 days and each day several times) but all time the was giving 'No Results Found' message.  Only a few times after searching I could see some hotel names and whenever I would like to book a stay I always see "No rooms available, please try another date" message.
+I attached link of my screen records for different times so you can also see the results.
+
+
+The Webpage does not work as expected for that reason, I could not  pass and see any further step to do exploratory testing. On Thursday, I asked ismael.guindo@wefox.com  who  had sent the task to me about problem I have faced, but he said this what I should see while testing because there are bugs in that webpage.
+
+Task 1 is the one that consumed most of my time while doind this assesment however I did not get any result because of the bug in the hotel search function.
+ 
+ I hope you take consideration much more in task 2 and task 3 answers.
+ 
+ https://www.loom.com/share/4cb7e51036e0423599cd81e2347a694a?sharedAppSource=personal_library
+
+https://www.loom.com/share/277e0d62f35f4b6fad89e7944ea7712b
+
+
+
